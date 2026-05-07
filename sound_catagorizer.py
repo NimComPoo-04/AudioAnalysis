@@ -1,8 +1,11 @@
+import sys
 import numpy as np
 import scipy
 import wave
 import matplotlib.pyplot as plt
 import matplotlib
+import sklearn as sk
+import seaborn as sns
 
 # load the whole sound
 def load_sound(name):
@@ -73,6 +76,9 @@ def HighFrequencyPower(f, n):
     h = thi/net
     return AV(h), RSD(h)
 
+
+# Don't know how to calculate Fundamental Frequencies so going to ignore this for now.
+'''
 def FundamentalFrequencies(f, threshold, sample_rate):
     where = np.argwhere(np.abs(f) > threshold)[:, 1]
     a = where * f.shape[0] / sample_rate 
@@ -80,14 +86,37 @@ def FundamentalFrequencies(f, threshold, sample_rate):
 
 def Harmonicity():
     pass
+'''
 
 def main():
-    params, audio = load_sound('penopticon.wav')
-    for x, f in blockify_sound(params, audio, params['sample_rate']):
-        print(Amplitude(x), SpectralWidth(f, 1100), LowFrequencyPower(f, 100), FundamentalFrequencies(f, 2000000, params['sample_rate']))
+    params, audio = load_sound(sys.argv[1])
 
-    #plt.plot(audio)
-    #plt.show()
+    feature_tensor = []
+
+    for x, f in blockify_sound(params, audio, params['sample_rate']):
+        feature_vector = np.array([*Amplitude(x), *SpectralWidth(f, 1100), *LowFrequencyPower(f, 100)])
+        feature_tensor.append(feature_vector)
+
+    feature_tensor = np.array(feature_tensor)
+    print(feature_tensor, feature_tensor.shape, feature_tensor.dtype)
+
+    scaler = sk.preprocessing.StandardScaler()
+    x_scaled = scaler.fit_transform(feature_tensor)
+    pca = sk.decomposition.PCA(n_components=2)
+    x_pca = pca.fit_transform(x_scaled)
+
+    print('PCA shape: ', x_pca.shape)
+
+    # Sklearn thingburger
+    kmeans = sk.cluster.KMeans(n_clusters=5, random_state=0, n_init="auto").fit(x_pca)
+    cats = kmeans.predict(x_pca)
+    print(cats)
+
+    #print(kmeans.labels_)
+    #print(kmeans.cluster_centers_)
+
+    sns.scatterplot(x=x_pca.T[0], y=x_pca.T[1], hue=cats)
+    plt.savefig('bruh.png')
 
 if __name__ == '__main__':
     matplotlib.use('WebAgg')
