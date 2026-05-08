@@ -94,7 +94,8 @@ def main():
     feature_tensor = []
 
     for x, f in blockify_sound(params, audio, params['sample_rate']):
-        feature_vector = np.array([*Amplitude(x), *SpectralWidth(f, 1100), *LowFrequencyPower(f, 100)])
+        feature_vector = np.array([*Amplitude(x), *SpectralWidth(f, 1100), *LowFrequencyPower(f, 100), *HighFrequencyPower(f, 1000)])
+        #feature_vector = np.array([*SpectralWidth(f, 1100), *LowFrequencyPower(f, 100), *HighFrequencyPower(f, 1000)])
         feature_tensor.append(feature_vector)
 
     feature_tensor = np.array(feature_tensor)
@@ -116,7 +117,8 @@ def main():
     #print(kmeans.cluster_centers_)
 
     sns.scatterplot(x=x_pca.T[0], y=x_pca.T[1], hue=cats)
-    plt.savefig('bruh.png')
+    plt.title('Wit Loundness Information')
+    plt.savefig('soundPCM.png')
 
 if __name__ == '__main__':
     matplotlib.use('WebAgg')
