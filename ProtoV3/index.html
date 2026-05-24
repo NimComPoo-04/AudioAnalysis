@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Prototype Version 3</title>
+        <script src="https://cdn.plot.ly/plotly-3.5.1.min.js" charset="utf-8"></script>
+        <script src=script.js type=module></script>
+        <link rel='stylesheet' href='stylesheet.css'>
+    </head>
+    <body>
+        <section class='control-structure'>
+            <header>Control Structure</header>
+            <div>
+                <button id='start-recording'>Start Recording</button>
+                <button id='stop-recording' disabled>Stop Recording</button>
+            </div>
+
+            <div class='control-status-nope'>
+                Not Recording
+            </div>
+
+        </section>
+        <hr>
+        <section class='audio-body'>
+            <table>
+            <caption>Recorded Audio</caption>
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Audio Sample</th>
+                        <th>Operate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--
+                    <tr>
+                        <td>Not Applicable</td>
+                        <td><audio controls src='example.mp3'></audio></td>
+                        <td><button>Analyse</button></td>
+                    </tr>
+                    -->
+                </tbody>
+            </table>
+        </section>
+
+        <section class='audio-prediction-spec'>
+            <table>
+                <caption>Audio Predictions based on times</caption>
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th colspan=5>Guesses</th>
+                        <th>Actually Horn?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <header></header>
+            <div id="WooW"></div>
+            <div id="MFCCPlot"></div>
+        </section>
+    </body>
+</html>

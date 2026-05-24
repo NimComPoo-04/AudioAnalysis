@@ -1,0 +1,158 @@
+,0,1,2,3,4
+0,Car,"Outside, urban or manmade",Motor vehicle (road),Motorcycle,Vehicle
+1,"Outside, urban or manmade",Vehicle,Motor vehicle (road),Motorcycle,Speech
+2,"Outside, rural or natural",Animal,Wild animals,Snake,Speech
+3,Horse,Clip-clop,"Outside, urban or manmade",Vehicle,Speech
+4,Singing,Crowd,"Outside, urban or manmade",Speech,Music
+5,Siren,"Motorboat, speedboat","Boat, Water vehicle",Vehicle,Speech
+6,"Inside, large room or hall",Motor vehicle (road),"Inside, public space",Music,Speech
+7,Speech,Bus,Car,Vehicle,Motor vehicle (road)
+8,Music,"Inside, large room or hall",Bus,"Inside, public space",Speech
+9,Noise,Chatter,"Outside, urban or manmade","Inside, public space",Speech
+10,Crowd,Vehicle,"Outside, urban or manmade","Inside, public space",Speech
+11,Motor vehicle (road),Vehicle,Bus,"Inside, public space",Speech
+12,"Outside, urban or manmade",Vehicle,Bus,"Inside, public space",Speech
+13,Vehicle,Run,"Outside, urban or manmade","Inside, public space",Speech
+14,"Outside, urban or manmade",Noise,"Inside, large room or hall","Inside, public space",Speech
+15,Shuffle,Chatter,"Inside, large room or hall","Inside, public space",Speech
+16,Chatter,Crowd,"Inside, large room or hall","Inside, public space",Speech
+17,Choir,Chatter,"Inside, large room or hall","Inside, public space",Speech
+18,Choir,"Inside, public space",Crowd,"Inside, large room or hall",Speech
+19,Bus,"Outside, urban or manmade",Vehicle,"Inside, public space",Speech
+20,"Race car, auto racing",Car passing by,Car,Motor vehicle (road),Vehicle
+21,Bus,Car,Truck,Motor vehicle (road),Vehicle
+22,Bus,Truck,Car,Motor vehicle (road),Vehicle
+23,Car,Motor vehicle (road),Bus,Vehicle,Speech
+24,Truck,Motor vehicle (road),Bus,Vehicle,Speech
+25,Engine,Music,Car,Motor vehicle (road),Vehicle
+26,"Outside, urban or manmade",Car,Motor vehicle (road),Vehicle,Speech
+27,Bus,"Outside, urban or manmade",Vehicle,"Inside, public space",Speech
+28,Vehicle,Motor vehicle (road),"Inside, large room or hall","Inside, public space",Speech
+29,"Race car, auto racing",Speech,Car,Motor vehicle (road),Vehicle
+30,Music,"Inside, public space",Vehicle,Bus,Speech
+31,"Inside, large room or hall","Outside, urban or manmade",Clip-clop,"Inside, public space",Speech
+32,"Outside, urban or manmade",Vehicle,Motor vehicle (road),Bus,Speech
+33,Alarm,"Inside, large room or hall","Inside, small room",Buzzer,Speech
+34,Aircraft,Radio,Noise,Buzzer,Speech
+35,"Boat, Water vehicle","Motorboat, speedboat",Vehicle,Buzzer,Speech
+36,Bus,Car,Motor vehicle (road),Vehicle,Speech
+37,"Race car, auto racing",Car,Motor vehicle (road),Vehicle,Speech
+38,Car passing by,"Race car, auto racing",Motor vehicle (road),Car,Vehicle
+39,Car,Bus,Motor vehicle (road),Vehicle,Speech
+40,"Boat, Water vehicle",Motor vehicle (road),Music,Vehicle,Speech
+41,Chatter,Crowd,"Outside, urban or manmade","Inside, public space",Speech
+42,Vehicle,"Inside, large room or hall",Bus,"Inside, public space",Speech
+43,Noise,"Inside, public space",Bus,Vehicle,Speech
+44,Bus,"Inside, large room or hall",Chatter,"Inside, public space",Speech
+45,Noise,"Outside, urban or manmade","Hubbub, speech noise, speech babble",Bus,Speech
+46,Bus,Motor vehicle (road),Vehicle,"Outside, urban or manmade",Speech
+47,Car,"Outside, urban or manmade",Motor vehicle (road),Vehicle,Speech
+48,"Outside, urban or manmade",Noise,Bus,"Hubbub, speech noise, speech babble",Speech
+49,"Outside, urban or manmade",Noise,"Inside, public space",Chatter,Speech
+50,Noise,"Outside, urban or manmade",Chatter,"Inside, public space",Speech
+51,"Inside, large room or hall",Noise,"Inside, public space",Chatter,Speech
+52,"Inside, large room or hall",Noise,"Inside, public space",Chatter,Speech
+53,Horse,Clip-clop,"Outside, urban or manmade",Animal,Speech
+54,"Inside, public space",Vehicle,Chatter,"Outside, urban or manmade",Speech
+55,Noise,Crowd,"Inside, public space","Outside, urban or manmade",Speech
+56,Conversation,Chatter,"Inside, large room or hall","Inside, public space",Speech
+57,"Narration, monologue","Inside, large room or hall","Outside, urban or manmade","Inside, public space",Speech
+58,Vocal music,Singing,Choir,Speech,Music
+59,"Outside, urban or manmade",Yodeling,Singing,Speech,Music
+60,Crowd,"Inside, large room or hall","Inside, public space",Chatter,Speech
+61,"Narration, monologue","Inside, large room or hall",Conversation,"Inside, public space",Speech
+62,"Narration, monologue","Inside, large room or hall","Inside, public space",Conversation,Speech
+63,"Inside, public space",Noise,"Outside, urban or manmade",Chatter,Speech
+64,Noise,"Inside, public space",Chatter,"Outside, urban or manmade",Speech
+65,Noise,Chatter,"Outside, urban or manmade","Inside, public space",Speech
+66,"Inside, public space",Noise,Chatter,"Outside, urban or manmade",Speech
+67,"Inside, public space",Music,"Inside, large room or hall","Narration, monologue",Speech
+68,Water,Rain,"Boat, Water vehicle",Vehicle,Speech
+69,Vehicle,"Inside, public space","Inside, large room or hall","Narration, monologue",Speech
+70,Chant,"Inside, public space","Inside, large room or hall","Narration, monologue",Speech
+71,Yodeling,Choir,Speech,"Inside, large room or hall",Singing
+72,"Inside, public space","Inside, large room or hall",Conversation,"Narration, monologue",Speech
+73,"Inside, public space",Conversation,"Inside, large room or hall","Narration, monologue",Speech
+74,"Outside, urban or manmade","Inside, public space",Noise,Chatter,Speech
+75,"Hubbub, speech noise, speech babble",Vehicle,"Inside, public space","Outside, urban or manmade",Speech
+76,"Inside, large room or hall","Outside, urban or manmade",Vehicle,"Inside, small room",Speech
+77,Car,"Outside, rural or natural",Vehicle,"Outside, urban or manmade",Speech
+78,Motor vehicle (road),Vehicle,"Outside, rural or natural","Outside, urban or manmade",Speech
+79,"Narration, monologue",Vehicle,Clip-clop,"Outside, urban or manmade",Speech
+80,Conversation,Noise,"Inside, public space",Chatter,Speech
+81,Conversation,"Inside, public space","Inside, large room or hall","Narration, monologue",Speech
+82,"Narration, monologue",Crowd,"Inside, large room or hall","Inside, public space",Speech
+83,Conversation,Run,"Inside, public space","Outside, urban or manmade",Speech
+84,"Inside, small room","Inside, large room or hall","Outside, urban or manmade",Conversation,Speech
+85,"Narration, monologue",Vehicle,"Outside, urban or manmade","Inside, public space",Speech
+86,Bus,"Inside, public space",Vehicle,"Outside, urban or manmade",Speech
+87,Classical music,Music,"Inside, large room or hall",Opera,Speech
+88,Conversation,"Narration, monologue","Inside, large room or hall","Inside, public space",Speech
+89,"Inside, large room or hall",Conversation,"Outside, urban or manmade","Inside, public space",Speech
+90,"Inside, large room or hall",Chatter,"Outside, urban or manmade","Inside, public space",Speech
+91,"Inside, large room or hall","Inside, public space",Noise,Chatter,Speech
+92,Motor vehicle (road),"Inside, public space",Vehicle,"Outside, urban or manmade",Speech
+93,"Outside, urban or manmade",Conversation,Television,"Narration, monologue",Speech
+94,Television,Speech synthesizer,Radio,"Narration, monologue",Speech
+95,Chant,Mantra,Music,"Narration, monologue",Speech
+96,Conversation,"Inside, large room or hall","Inside, public space",Music,Speech
+97,Run,"Inside, large room or hall","Outside, urban or manmade","Inside, public space",Speech
+98,Animal,"Inside, large room or hall","Outside, urban or manmade","Narration, monologue",Speech
+99,"Inside, public space","Narration, monologue","Outside, urban or manmade",Music,Speech
+100,"Inside, public space",Music,"Outside, urban or manmade","Narration, monologue",Speech
+101,"Inside, large room or hall","Inside, public space",Music,"Narration, monologue",Speech
+102,"Inside, large room or hall","Inside, public space","Outside, urban or manmade","Narration, monologue",Speech
+103,Music,"Inside, large room or hall","Outside, urban or manmade","Inside, public space",Speech
+104,"Inside, public space","Inside, large room or hall","Outside, urban or manmade",Music,Speech
+105,"Inside, large room or hall","Inside, small room","Narration, monologue",Television,Speech
+106,"Narration, monologue",Music,"Inside, small room",Television,Speech
+107,Gurgling,Horse,Water,Clip-clop,Speech
+108,"Outside, urban or manmade","Inside, large room or hall","Narration, monologue",Conversation,Speech
+109,Clip-clop,"Inside, large room or hall",Conversation,"Narration, monologue",Speech
+110,"Outside, urban or manmade",Music,Conversation,"Inside, public space",Speech
+111,Music,Conversation,"Outside, urban or manmade","Inside, public space",Speech
+112,"Inside, public space",Noise,Chatter,"Outside, urban or manmade",Speech
+113,"Outside, urban or manmade","Inside, public space",Noise,Chatter,Speech
+114,Conversation,"Inside, public space",Noise,Chatter,Speech
+115,Conversation,Noise,"Inside, public space",Chatter,Speech
+116,Conversation,Chatter,"Outside, urban or manmade","Inside, public space",Speech
+117,"Outside, urban or manmade",Chatter,Noise,"Hubbub, speech noise, speech babble",Speech
+118,"Inside, public space","Narration, monologue","Inside, large room or hall",Conversation,Speech
+119,Noise,"Inside, public space","Inside, large room or hall",Conversation,Speech
+120,"Inside, public space",Conversation,Noise,Chatter,Speech
+121,Conversation,"Inside, large room or hall",Noise,Chatter,Speech
+122,"Hubbub, speech noise, speech babble","Inside, public space",Noise,Chatter,Speech
+123,Conversation,Noise,"Inside, large room or hall",Chatter,Speech
+124,"Inside, large room or hall",Conversation,Laughter,"Chuckle, chortle",Speech
+125,Conversation,"Inside, large room or hall","Chuckle, chortle",Laughter,Speech
+126,Conversation,"Inside, large room or hall",Noise,Chatter,Speech
+127,"Inside, large room or hall","Chuckle, chortle",Conversation,Laughter,Speech
+128,"Inside, large room or hall",Conversation,Laughter,"Chuckle, chortle",Speech
+129,"Chuckle, chortle",Laughter,"Inside, large room or hall",Conversation,Speech
+130,Conversation,"Inside, public space",Noise,Chatter,Speech
+131,"Outside, urban or manmade","Inside, large room or hall","Inside, public space",Music,Speech
+132,"Inside, large room or hall",Noise,"Inside, public space",Chatter,Speech
+133,Chatter,Conversation,"Inside, large room or hall","Inside, public space",Speech
+134,Chatter,"Inside, large room or hall","Inside, public space",Conversation,Speech
+135,"Inside, public space",Noise,Conversation,Chatter,Speech
+136,"Outside, urban or manmade","Narration, monologue",Conversation,"Inside, public space",Speech
+137,Run,"Outside, urban or manmade",Horse,Clip-clop,Speech
+138,"Inside, large room or hall",Laughter,Television,Music,Speech
+139,Exciting music,Singing,"Inside, large room or hall",Speech,Music
+140,Music,Animal,Television,Horse,Speech
+141,"Inside, large room or hall","Inside, public space",Chatter,Noise,Speech
+142,"Inside, public space","Inside, large room or hall",Conversation,"Narration, monologue",Speech
+143,"Inside, large room or hall",Conversation,"Narration, monologue","Inside, public space",Speech
+144,Conversation,"Inside, public space","Inside, large room or hall",Chatter,Speech
+145,Noise,"Outside, urban or manmade","Inside, public space",Chatter,Speech
+146,"Outside, urban or manmade","Inside, large room or hall",Noise,"Inside, public space",Speech
+147,Clip-clop,"Outside, urban or manmade","Inside, large room or hall","Inside, public space",Speech
+148,Conversation,"Outside, urban or manmade","Inside, public space","Inside, large room or hall",Speech
+149,"Inside, large room or hall","Inside, public space",Horse,Clip-clop,Speech
+150,Bus,"Narration, monologue","Inside, public space",Vehicle,Speech
+151,"Outside, urban or manmade","Inside, public space",Noise,Chatter,Speech
+152,Bow-wow,Animal,"Domestic animals, pets",Dog,Speech
+153,"Inside, public space",Chatter,Conversation,"Inside, large room or hall",Speech
+154,"Inside, public space","Inside, large room or hall","Narration, monologue",Conversation,Speech
+155,"Outside, urban or manmade",Conversation,"Inside, large room or hall","Narration, monologue",Speech
+156,Vehicle,Speech,Explosion,Sound effect,Silence
