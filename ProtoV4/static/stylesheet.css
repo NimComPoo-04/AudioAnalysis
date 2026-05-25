@@ -1,0 +1,101 @@
+.control-status-nope {
+    color: gray;
+    text-align: center;
+}
+
+.control-status-yup {
+    animation-name: blooper;
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+@keyframes blooper {
+    0% {color: red; font-weight: bold;}
+    100% {color: gray; font-weight: bold;}
+}
+
+#MFCCPlot {
+    width: 100%;
+    height: 480px;
+}
+
+.control-structure {
+    header {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    button {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+    padding: 10px;
+    font-size: 2em;
+}
+
+table tr {
+    font-size: 1.2em;
+}
+
+table button {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+table caption {
+    font-size: 3em;
+    padding: 10px;
+}
+
+/* Container to make all tables responsive on mobile */
+/* Note: You still need a wrapper div in HTML for this to work */
+div {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+/* Base table styling applied to all tables */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Prevents double borders */
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 5px 0 0;
+  overflow: hidden; /* Ensures border-radius works */
+}
+
+/* Header styling */
+thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Padding and alignment for all cells */
+th, td {
+  padding: 12px 15px;
+}
+
+/* Zebra striping for rows */
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* Bottom border for rows to separate them */
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Highlight row on hover */
+tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Style for the very last row */
+tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
