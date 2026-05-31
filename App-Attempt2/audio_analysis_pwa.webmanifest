@@ -1,0 +1,17 @@
+{
+    "name": "Audio Analysis",
+    "icons": [{
+        "src": "assets/icon60.png",
+        "type": "image/png",
+        "sizes": "60x60"
+    },{
+        "src": "assets/icon128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+    }],
+    "start_url": "/",
+    "display": "standalone",
+    "display_override": ["fullscreen", "minimal-ui"],
+    "theme_color": "#283618",
+    "theme_color": "#283618"
+}
